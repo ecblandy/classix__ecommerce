@@ -1,4 +1,5 @@
 # Projeto ecommerce classix
+> Status: Developed ✅
 
 *Desenvolvi esse ecommerce para ter mais conhecimento em desenvolvimento nessa area*
 
