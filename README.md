@@ -4,10 +4,12 @@
 
 ### Informações de estudos: 
 
-- Layout do footer
-- Propriedade transform
+- Layout do footer.
+- Propriedade transform.
 
 ### Tecnologias usadas:
 
 - **HTML**
 - **CSS**
+
+[![Projeto imagem](./img/readmeimg.jpg)]([link projeto](https://classix-ecommerce.vercel.app/))
