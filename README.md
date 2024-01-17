@@ -12,4 +12,5 @@
 - **HTML**
 - **CSS**
 
-![Projeto imagem](./img/readmeimg.jpg)([link projeto](https://classix-ecommerce.vercel.app/))
+[![Projeto imagem](./img/readmeimg.jpg)](https://classix-ecommerce.vercel.app/)
+
