@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.background {
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 14px 14%;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabecalho__link ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.cabecalho__link li a {
+    color: #111;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.cabecalho__link li a:hover,
+ion-icon:hover {
+    color: #c8815f;
+}
+
+ion-icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modelos {
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.modelos h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.modelos button,
+.cta__text a,
+.roupa button {
+    padding: 1rem 3rem;
+    max-width: 200px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #c8815f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.modelos button:hover,
+.cta__text a:hover, .roupa button:hover {
+    background-color: black;
+    color: #fff;
+    transform: scaleY(1.2);
+}
+
+section {
+    padding-top: 7rem;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.container__card img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    transition: .35s ease;
+}
+
+.container__card img:hover, .container__roupa img:hover {
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+}
+
+.cta {
+    background-image: url('img/ffffc.png');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.cta__text {
+    padding-left: 5rem;
+}
+
+.cta__text span {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.cta__text h4 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.container__roupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.container__roupa img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.roupa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roupa p {
+    margin: 1rem 0;
+    text-wrap: wrap;
+    max-width: 28ch;
+    width: 100%;
+    text-align: center;
+}
+
+.marcas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.marcas img{
+    width: 180px;
+    height: auto;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.infos {
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+.contato h6,
+.explore h6,
+.services h6,
+.shopping h6 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.contato a,
+.explore li a,
+.services li a,
+.shopping li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.explore li,
+.services li,
+.shopping li {
+    margin-bottom: 10px;
+}
+
+.direitos-reservados {
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}
